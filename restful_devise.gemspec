@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
   s.description = "This gem aims at using devise as a API"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.test_files = Dir["spec/**/*"]
+  s.require_paths = ["lib"]
 
   s.add_dependency "rails", "~> 4.0.2"
   s.add_dependency "devise"
@@ -22,4 +23,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "capybara"
+  s.add_development_dependency "pry-rails"
 end
