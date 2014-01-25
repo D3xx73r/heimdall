@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = RestfulDevise::VERSION
   s.authors     = ["Ian Rodriguez"]
   s.email       = ["ian.rgz@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/ianrgz/restful_devise"
   s.summary     = "Use Devise as a API out of the box"
   s.description = "This gem aims at using devise as a API"
 
@@ -20,4 +20,6 @@ Gem::Specification.new do |s|
   s.add_dependency "devise"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "capybara"
 end
