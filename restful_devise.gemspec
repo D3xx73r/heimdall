@@ -18,10 +18,11 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "rails", "~> 4.0.2"
-  s.add_dependency "devise"
+  s.add_dependency "warden", "~> 1.2.3"
+  s.add_dependency "bcrypt-ruby", "~> 3.0"
 
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "rspec"
   s.add_development_dependency "capybara"
-  s.add_development_dependency "pry-rails"
+  s.add_development_dependency "pry"
 end
